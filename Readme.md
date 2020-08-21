@@ -1,5 +1,5 @@
-# nanontp
-An ntp server implementation in golang base on [btfak](https://github.com/btfak/sntp) and [beevik](https://github.com/beevik/ntp)  
+# Nano NTP
+An NTP server implementation in golang base on [btfak](https://github.com/btfak/sntp) and [beevik](https://github.com/beevik/ntp)  
 This NTP Server first acts like a ntp relay and ask time from upstream NTP servers, if relay can't reach them, then will pass it's own local time to the clients 
 
 ### Installation
